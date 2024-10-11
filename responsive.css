@@ -1,0 +1,164 @@
+/* -----Media Query----- */
+
+@media only screen and (max-width:800px) {
+  .container .drop {
+    width: 275px;
+    height: 275px;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skill_box {
+    width: 90%;
+    margin: 50px 10px 0px 0px;
+    height: 320px;
+  }
+
+  .exp_container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .exp_content {
+    margin: 30px 20px;
+    width: 90%;
+  }
+
+  .all_heading {
+    text-align: center;
+  }
+
+  .project_container {
+    flex-direction: column;
+  }
+
+  .project_content {
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0px;
+
+  }
+
+  .project_details {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    position: static !important;
+  }
+
+  .project_btn {
+    margin: auto;
+  }
+
+  .service_container {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .service_container .drop {
+
+    height: auto;
+
+  }
+
+  .contact_container {
+    flex-direction: column;
+  }
+
+  .side_box {
+    width: 100%;
+  }
+
+  .contact_form {
+    width: 100%;
+  }
+
+  .footer_container {
+    flex-direction: column;
+  }
+
+  .footer01,
+  .footer02 {
+    width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width:600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:570px) {
+
+
+  .image {
+    margin-top: 20px;
+  }
+
+  .content h1,
+  .content h6 {
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width:399px) {
+  .wrapper {
+    height: max-content !important;
+    padding: 0px 20px;
+  }
+
+  .image {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width:1075px) {
+  .skill_box {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width:840px) {
+  .skill_box {
+    height: 500px;
+  }
+
+}
+
+
+
+@media only screen and (max-width:425px) {
+
+  .service_container .drop {
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width:577px) {
+  .footer_btn {
+    flex-wrap: wrap;
+    gap: 20px 0px;
+  }
+
+  .wrapper {
+    height: max-content !important;
+    padding: 0px 20px;
+  }
+
+  .footer_heading {
+    text-align: center;
+  }
+
+  .all_heading {
+    font-size: 50px;
+  }
+}
